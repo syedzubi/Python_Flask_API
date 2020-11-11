@@ -61,6 +61,6 @@ def get_item_in_store(name):
 
 @app.route("/")
 def hello():
-  return render_template('index.html')
+  return render_template('./templates/index.html')
 
 app.run(port=3000)
